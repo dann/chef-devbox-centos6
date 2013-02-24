@@ -48,10 +48,11 @@ vagrant ユーザーで ssh できるよう、~/.ssh/config を編集します�
 同ディレクトリ内に本レポジトリを clone した後、knife chef-solo prepare を実行し下準備します。
 
     # git clone git://github.com/dann/chef-devbox-centos6.git
-    $ cd devbox-centos6
+    $ cd chef-devbox-centos6
     $ knife solo prepare vagrant@192.168.50.10
 
 nodes/192.168.50.10.json を自分の環境に合わせて編集します。
+mysql-buildは環境に寄っては時間がかかるので、パッケージで済ませてもいいでしょう。
 
     {
         "user":{
