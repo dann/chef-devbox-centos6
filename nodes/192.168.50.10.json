@@ -1,0 +1,30 @@
+{
+    "user":{
+        "name": "techmemo",
+        "group" : "techmemo",
+        "home": "/home/techmemo"
+    },
+    "rbenv":{
+        "version": "1.9.3-p362"
+    },
+    "plenv":{
+        "version": "5.16.2"
+    },
+    "pyenv":{
+        "version": "2.7.2"
+    },
+    "mysql-build":{
+        "version": "5.6.10"
+    },
+    "recipes":[
+        "adduser",
+        "base_packages",
+        "dotfiles",
+        "rbenv",
+        "pyenv",
+        "plenv",
+        "chef"
+    ]
+
+
+}

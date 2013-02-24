@@ -1,0 +1,17 @@
+{
+    "user":{
+        "name": "techmemo",
+        "home": "/home/techmemo"
+    },
+    "recipes":[
+        "adduser",
+        "base_packages",
+        "dotfiles",
+        "rbenv",
+        "pyenv",
+        "plenv",
+        "mysql-build",
+        "chef"
+    ]
+
+}
