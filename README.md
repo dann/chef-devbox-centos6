@@ -104,10 +104,12 @@ rakeのタスクを見てください。
 
 # SEE ALSO
 
-naoyaさんの[vagrant](https://github.com/naoya/vagrant-centos-rbenv_chef)
+naoyaさんの[vagrant setup](https://github.com/naoya/vagrant-centos-rbenv_chef)
 
 # TODO
-
-- EPEL
-- public key
-- supervisord, nginxなどの追加
+- veeweeでbox作成
+- Librarian-chefでcookbookのbundle化 
+- cookbook
+  - EPEL
+  - public key
+  - supervisord, nginxなどの追加
